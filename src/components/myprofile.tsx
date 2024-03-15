@@ -24,10 +24,8 @@ function MyAvatar({ person, size }: AvatarProps) {
   return (
     <img
       className="avatar"
-      src={getImageUrl(person.imageId, 'b')}
+      src={getImageUrl(person.imageId, imageSizeVariant)}
       alt={person.name}
-      width={size}
-      height={size}
     />
   );
 }
@@ -42,7 +40,7 @@ export default function MyProfile({persons, profnumber, profession, achievement,
       <section className="profile">
         <h2>{persons.name}</h2>
         <MyAvatar
-            size={'100'}
+            size={'90'}
             person={{ 
                 name: persons.name, 
                 imageId: persons.imageId

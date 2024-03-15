@@ -3,7 +3,8 @@ const person = {
     theme: {
       backgroundColor: 'black',
       color: 'pink'
-    }
+    },
+    url: "https://i.imgur.com/7vQD0fPs.jpg"
   };
   
   export default function TodoList() {

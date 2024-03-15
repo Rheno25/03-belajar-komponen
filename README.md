@@ -31,28 +31,28 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 ### Jawaban Soal 1
 
-![Screenshot](assets/1.png)
+![Screenshot](src/assets/1.png)
 
 ### Jawaban Soal 2
 
-![Screenshot](assets/2.png)
+![Screenshot](src/assets/2.png)
 
 ### Jawaban Soal 3
 
-![Screenshot](assets/3.png)
+![Screenshot](src/assets/3.png)
 
 ### Jawaban Soal 5
 
-![Screenshot](assets/5.png)
+![Screenshot](src/assets/5.png)
 
 ### Jawaban Soal 6
 
-![Screenshot](assets/6.png)
+![Screenshot](src/assets/6.png)
 
 ### Jawaban Soal 7
 
-![Screenshot](assets/7.png)
+![Screenshot](src/assets/7.png)
 
 ### Jawaban Soal 8
 
-![Screenshot](assets/8.png)
+![Screenshot](src/assets/8.png)

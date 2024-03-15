@@ -20,6 +20,7 @@ interface MyProfileProps{
 }
 
 function MyAvatar({ person, size }: AvatarProps) {
+  const imageSizeVariant = getImageSizeVariant(Number(size));
   return (
     <img
       className="avatar"
@@ -31,13 +32,17 @@ function MyAvatar({ person, size }: AvatarProps) {
   );
 }
 
+function getImageSizeVariant(size: number): 's' | 'b' {
+    return size < 90 ? 's' : 'b';
+  }
+
 export default function MyProfile({persons, profnumber, profession, achievement, invention}: MyProfileProps ) {
   return (
     <div>
       <section className="profile">
         <h2>{persons.name}</h2>
         <MyAvatar
-            size={'70'}
+            size={'100'}
             person={{ 
                 name: persons.name, 
                 imageId: persons.imageId

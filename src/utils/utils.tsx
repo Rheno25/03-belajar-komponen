@@ -1,4 +1,4 @@
-export function getImageUrl(imageId: string, size = 's') {
+export function getImageUrl(imageId: string, size: string) {
     return (
       'https://i.imgur.com/' +
       imageId +

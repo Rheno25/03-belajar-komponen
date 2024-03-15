@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Profile from "@/components/profile";
 import { Gallery } from "@/components/gallery";
+import Bio from "@/components/bio";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <div style={{ display: 'flex', justifyContent: 'space-around' }}>
         <Gallery />
       </div>
+      <Bio />
     </section>
   );
 }
